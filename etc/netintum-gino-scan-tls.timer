@@ -1,0 +1,9 @@
+[Unit]
+Description=TLS Baseline Scanner timer
+
+[Timer]
+AccuracySec=100
+OnCalendar=Wed *-*-* 07:00:00
+
+[Install]
+WantedBy=timers.target

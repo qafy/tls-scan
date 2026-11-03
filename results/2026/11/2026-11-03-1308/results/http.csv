@@ -1,0 +1,16 @@
+id,protocol,http_method,http_path,http_code,error_data,Public-Key-Pins,Public-Key-Pins-Report-Only,Strict-Transport-Security,Expect-CT,Server,Alt-Svc,Location
+4,2.0,GET,/robots.txt,200,,,,max-age=31536000; includeSubDomains; preload,,github.com,,
+2,2.0,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt
+7,2.0,GET,/robots.txt,200,,,,max-age=31536000; includeSubDomains; preload,,github.com,,
+3,2.0,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt
+6,1.1,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt
+15,2.0,GET,/robots.txt,200,,,,max-age=31536000; includeSubDomains; preload,,github.com,,
+10,1.1,GET,/robots.txt,200,,,,max-age=31536000; includeSubDomains; preload,,github.com,,
+19,2.0,GET,/robots.txt,200,,,,max-age=31536000; includeSubDomains; preload,,github.com,,
+8,2.0,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt
+14,2.0,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt
+22,2.0,GET,/robots.txt,200,,,,max-age=31536000; includeSubDomains; preload,,github.com,,
+23,2.0,GET,/robots.txt,200,,,,max-age=31536000; includeSubDomains; preload,,github.com,,
+20,2.0,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt
+21,2.0,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt
+26,2.0,GET,/robots.txt,301,,,,,,sffe,"h3="":443""; ma=2592000,h3-29="":443""; ma=2592000",https://www.google.com/robots.txt

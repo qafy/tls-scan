@@ -1,0 +1,17 @@
+[Unit]
+Description=TLS Baseline Scanner
+# Replace /root/tls-scan with the repo root directory
+ConditionFileIsExecutable=/root/tls-scan/scan/scan-tls.sh
+ConditionFileIsExecutable=/root/tls-scan/scan/goscanner
+ConditionFileIsExecutable=/root/tls-scan/scan/zstd-rm
+
+ConditionFileNotEmpty=/root/tls-scan/config/tls-scan.conf
+ConditionFileNotEmpty=/root/tls-scan/config/input.csv
+
+OnFailure=status-email@%n.service
+
+[Service]
+Type=simple
+LimitNOFILE=1024000
+ExecStart=/root/tls-scan/scan/scan-tls.sh /root/tls-scan/config/input.csv
+ExecStopPost=/usr/local/bin/systemd-email %n
